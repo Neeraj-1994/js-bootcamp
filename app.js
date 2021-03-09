@@ -1,18 +1,17 @@
-if (1 !== 1){
-    console.log("It's True!");
+// let age = 30;
+
+// if(age < 6 || age >= 65){
+//     console.log("YOU GET IN FOR FREE!");
+// }
+// else {
+//     console.log("YOU MUST PAY!");
+// }
+
+let color = "violet";
+
+if(color === 'purple' || color === 'lilac' || color === 'violet'){
+    console.log('GREAT CHOICE!');
 }
-
-// Example 2
-
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
+else {
+     
 }
