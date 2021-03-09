@@ -1,18 +1,17 @@
-if (1 !== 1){
-    console.log("It's True!");
+let password = 'chicken Gal';
+
+if (password.length >= 8 && password.indexOf(' ') === -1) {
+    console.log("VALID PASSWORD!");
+} else {
+    console.log("INVALID PASSWORD!");
 }
 
 // Example 2
 
-let rating = 3;
+let num = 1;
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
+if (num >= 1 && num <= 10) {
+    console.log('Number is between 1 and 10');
+} else {
+    console.log('Please guess a number between 1 and 10');
 }
