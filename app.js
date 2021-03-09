@@ -1,18 +1,17 @@
-if (1 !== 1){
-    console.log("It's True!");
+let loggedInUser;
+
+// If there isn't a logged in user
+
+if(!loggedInUser){
+    console.log('GET OUT OF HERE!');
 }
 
-// Example 2
+let flavor = 'grape';
 
-let rating = 3;
+// if(flavor !== 'grape' && flavor !== 'cherry'){
+//     console.log('WE D0NT HAVE THAT FLAVOR!');
+// }
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
+if(!(flavor === 'grape' || flavor === 'cherry')){
+    console.log('WE ONLY HAVE GRAPE AND CHERRY!');
 }
