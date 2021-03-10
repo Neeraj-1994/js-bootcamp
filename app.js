@@ -1,18 +1,14 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let num = 2;
 
-// Example 2
+// if(num === 7) {
+//     console.log('lucky!');
+// } else {
+//     console.log('BAD!');
+// }
 
-let rating = 3;
+// num === 7 ? console.log('lucky!') : console.log('BAD!');
+// console.log(num === 7 ? 'lucky!' : 'BAD!');
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
+let status = 'offline';
 
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+let color = status === 'offline' ? 'red' : 'green';
