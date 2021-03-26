@@ -1,18 +1,6 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let shoppingList = ['Cheddar Cheese', '2% Milk'];
 
-// Example 2
+shoppingList[1] = 'Whole Milk'; // Updating Items in an array by accessing the index of the element
+shoppingList[2] = 'Ice Cream';
 
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+shoppingList[shoppingList.length] = 'Tomatoes'; // If no. of items are unknown
