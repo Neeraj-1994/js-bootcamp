@@ -1,18 +1,11 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let topSongs = [
+    'First Time Ever I Saw Your Face',
+    'God Only Knows',
+    'A Day In The Life',
+    'Life On Mars'
+];
 
-// Example 2
-
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+topSongs.push('Fortunate Son');
+console.log(topSongs);
+topSongs.pop();
+console.log(topSongs);
