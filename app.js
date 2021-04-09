@@ -1,18 +1,7 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let fruits = ['apple', 'banana'];
+let veggies = ['asparagus', 'brussel sprouts'];
+let meats = ['chicken', 'pork', 'beef'];
 
-// Example 2
-
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+console.log(fruits.concat(veggies));
+console.log(veggies.concat(fruits));
+console.log(fruits.concat(veggies, meats));
