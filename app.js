@@ -1,18 +1,21 @@
-if (1 !== 1){
-    console.log("It's True!");
+let ingredients = [
+    'water', 'corn starch', 'flour', 'cheese', 
+    'brown sugar', 'shrimp', 'eel', 'butter'
+];
+
+console.log(ingredients.includes('fish'));
+//expected output: false
+console.log(ingredients.includes('shrimp'));
+//expected output: true
+console.log(ingredients.includes('corn'));
+//expected output: false since it looks for direct match and not inside strings
+console.log(ingredients.includes('water', 3));
+//expected output: false as after index 3 there is no water
+
+if(ingredients.includes('flour')) {
+    console.log('I am gluten free, I cannot eat that');
 }
 
-// Example 2
-
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+console.log(ingredients.indexOf('eel')); // 6
+console.log(ingredients.indexOf('maple syrup')); // -1
+console.log(ingredients.indexOf('cheese', 5)); // -1
