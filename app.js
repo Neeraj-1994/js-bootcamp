@@ -1,18 +1,24 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let dishesToDo = ['big platter'];
+dishesToDo.unshift('large plate');
+console.log(dishesToDo);
+dishesToDo.unshift('small plate');
+console.log(dishesToDo);
+dishesToDo.unshift('cereal bowl');
+console.log(dishesToDo);
+dishesToDo.unshift('mug');
+console.log(dishesToDo);
+dishesToDo.unshift('dirty spoon');
+console.log(dishesToDo);
 
-// Example 2
-
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+dishesToDo.shift();
+console.log(dishesToDo);
+dishesToDo.shift();
+console.log(dishesToDo);
+dishesToDo.shift();
+console.log(dishesToDo);
+dishesToDo.shift();
+console.log(dishesToDo);
+dishesToDo.shift();
+console.log(dishesToDo);
+dishesToDo.shift();
+console.log(dishesToDo);
