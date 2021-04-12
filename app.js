@@ -1,18 +1,8 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let letters = ['T', 'C', 'E', 'P', 'S', 'E', 'R'];
+// console.log(letters.reverse());
 
-// Example 2
-
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+console.log(letters.join());
+console.log(letters.join('&'));
+console.log(letters.reverse().join('.'));
+console.log(letters.join('-'));
+console.log([12.3, 60, false].join());
