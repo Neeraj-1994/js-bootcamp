@@ -1,18 +1,14 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let fruit = 'orange';
+let color = fruit;
+console.log(color);
+console.log(fruit);
+fruit = 'watermelon';
+console.log(color);
+console.log(fruit);
 
-// Example 2
+// Value Type Variable
 
-let rating = 3;
+let nums = [5,6,7,8];
+let otherNums = nums;
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+nums.push(9);
