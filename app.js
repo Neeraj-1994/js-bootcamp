@@ -1,18 +1,18 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let animals = ['shark', 'salmon', 'whale', 
+'bear', 'lizard', 'tortoise'];
 
-// Example 2
+// Just adding elements
+animals.splice(1, 0, 'octopus');
+console.log(animals);
 
-let rating = 3;
+// Just deleting elements
+animals.splice(3, 2);
+console.log(animals);
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
+// Inserting many elements
+animals.splice(3, 0, 'snake', 'frog');
+console.log(animals);
 
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+// Replacing many elements
+animals.splice(0, 2, 'SHARK!', 'OCTOPUS!');
+console.log(animals);
