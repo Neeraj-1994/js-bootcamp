@@ -1,18 +1,7 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let people = ['Mrs. Robinson', 'Angie',
+'Jolene', 'Maggie May', 'Roxanne'];
 
-// Example 2
+console.log(people.sort());
 
-let rating = 3;
-
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+let nums = [34, 10, 100000, 67, 99];
+console.log(nums.sort());
