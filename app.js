@@ -1,18 +1,12 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let animals = ['shark', 'salmon', 'whale', 'bear', 
+'lizard', 'tortoise'];
 
-// Example 2
+let swimmers = animals.slice(0, 3);
 
-let rating = 3;
+let mammals = animals.slice(2, 4);
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
+let reptiles = animals.slice(4);
 
-// Example 3
-let num = 37;
+let quadruped = animals.slice(-3);
 
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+let tripeds = animals.slice(-3, -1);
