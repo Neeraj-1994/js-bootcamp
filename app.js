@@ -1,3 +1,8 @@
+// Operator Preceedence Practice 
+
+let x = 7;
+x == 7 || x === 3 && x > 10;
+
 // Logical ! Practice
 
 let loggedInUser;
@@ -34,7 +39,6 @@ let color = "violet";
 if(color === 'purple' || color === 'lilac' || color === 'violet'){
     console.log('GREAT CHOICE!');
 }
-else {
      
 // Logical && Practice
 
@@ -52,7 +56,6 @@ if (num >= 1 && num <= 10) {
     console.log('Number is between 1 and 10');
 } else {
     console.log('Please guess a number between 1 and 10');
-let password = 'kitty';
 }
 
 // Truthy and Falsy values Practice
@@ -67,6 +70,8 @@ else {
 }
 
 // Nesting Conditionals practice
+
+let password = 'kitty';
 
 if (password.length >= 6) {
     if (password.indexOf(' ') === -1) {
