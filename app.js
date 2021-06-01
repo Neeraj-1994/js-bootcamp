@@ -1,18 +1,7 @@
-if (1 !== 1){
-    console.log("It's True!");
-}
+let shoppingList = ['cereal', 'cheese', 'ice'];
 
-// Example 2
+let lotto = [45, 12, 23, 25, 34];
 
-let rating = 3;
+let myCollection = [12, 'dog', true, null, NaN];
 
-if(rating === 3){
-    console.log('YOU ARE A SUPERSTAR!')
-}
-
-// Example 3
-let num = 37;
-
-if (num % 2 !== 0){
-    console.log("ODD NUMBER!");
-}
+console.log(typeof myCollection);
