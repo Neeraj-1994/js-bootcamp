@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+// Nesting COnditionals practice
+
 let password = 'kitty';
 
 if (password.length >= 6) {
@@ -9,7 +10,10 @@ if (password.length >= 6) {
     }
 } else {
     console.log("Password must be longer!");
-=======
+}
+
+// If else and else practice
+
 // Performance Review
 // 3 - Superstar
 // 2 - meets expectations
@@ -45,5 +49,4 @@ else {
         `Good Game. Your score of ${userScore} did not 
         beat the high score of ${highScore}`
     )
->>>>>>> controllingProgramLogicAndFlow
 }
