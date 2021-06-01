@@ -1,3 +1,22 @@
+// Logical && Practice
+
+let password = 'chicken Gal';
+
+if (password.length >= 8 && password.indexOf(' ') === -1) {
+    console.log("VALID PASSWORD!");
+} else {
+    console.log("INVALID PASSWORD!");
+}
+
+let num = 1;
+
+if (num >= 1 && num <= 10) {
+    console.log('Number is between 1 and 10');
+} else {
+    console.log('Please guess a number between 1 and 10');
+let password = 'kitty';
+}
+
 // Truthy and Falsy values Practice
 
 let loggedInUser = "";
@@ -9,9 +28,7 @@ else {
     console.log("PLEASE LOG IN!");
 }
 
-// Nesting COnditionals practice
-
-let password = 'kitty';
+// Nesting Conditionals practice
 
 if (password.length >= 6) {
     if (password.indexOf(' ') === -1) {
