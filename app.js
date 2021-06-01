@@ -1,3 +1,14 @@
+// Truthy and Falsy values Practice
+
+let loggedInUser = "";
+
+if(loggedInUser){
+    console.log("YOU ARE LOGGED IN!");
+}
+else {
+    console.log("PLEASE LOG IN!");
+}
+
 // Nesting COnditionals practice
 
 let password = 'kitty';
